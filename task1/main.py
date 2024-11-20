@@ -5,7 +5,7 @@ print('Welcome to System Health Monitoring Bot.\n')
 def checkCpuUsage(cpuUsage):
     if cpuUsage <40:
         return 'underutilised'
-    elif cpuUsage <76:
+    elif cpuUsage <7610:
         return 'optimal'
     else:
         return 'overloaded'
