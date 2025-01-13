@@ -39,5 +39,5 @@ def test_cyclic_shift():
     print("Decrypted:", decrypt_cyclic_shift(encrypted, 2))  # Expected: "This is a secret message"
 
 
-# Run the function/each test
+# Run the function / each test
 test_cyclic_shift()
